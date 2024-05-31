@@ -1,0 +1,7 @@
+﻿cmake_minimum_required(VERSION 3.1)
+#set(CMAKE_C_COMPILER clang)
+#set(CMAKE_CXX_COMPILER clang++)
+project(bsr CXX)
+add_subdirectory(src)
+enable_testing()
+add_subdirectory(test)
